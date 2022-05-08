@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crie seu site</title>
+</head>
+<body>
+    <h1 id="titulo"></h1>
+    <p id="paragrafo"></p>
+
+    <script>
+        var titulo = prompt('Fale um Título')
+        while (titulo == '' || titulo == null) {
+            alert('Você precisa adicionar algo.')
+            var titulo = prompt('Fale um Título')
+        }
+
+        var paragrafo = prompt('Fale um Parágrafo')
+        while (paragrafo == '' || paragrafo == null) {
+            alert('Você precisa adicionar algo.')
+            var paragrafo = prompt('Fale um Parágrafo')
+        }
+
+        var h1 = document.getElementById('titulo')
+        var p = document.getElementById('paragrafo')
+
+        h1.innerHTML = `${titulo}`
+        p.innerHTML = `${paragrafo}`
+    </script>
+</body>
+</html>
