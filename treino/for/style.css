@@ -59,6 +59,7 @@ table {
     border-collapse: collapse;
     min-width: 600px;
     margin: 0px auto;
+    text-align: center;
 }
 
 caption {
@@ -68,7 +69,6 @@ caption {
 
 td, th {
     border: 1px solid black;
-    text-align: center;
 }
 
 tr:nth-child(even) {
@@ -81,8 +81,8 @@ thead > tr {
 
 p {
     font-weight: bold;
-    text-align: center;
     margin: 15px 0px 0px 0px;
+    text-align: center;
 }
 
 footer {
