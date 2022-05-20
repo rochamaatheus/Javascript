@@ -1,0 +1,100 @@
+@charset 'UTF-8';
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(56, 35, 75);
+    min-height: 100vh;
+}
+
+header {
+    background-color: blueviolet;
+    text-align: center;
+    padding: 15px;
+}
+
+main {
+    background-color: rgb(255, 255, 255);
+    width: 900px;
+    margin: 0 auto;
+    padding: 15px;
+    border-radius: 0px 0px 5px 5px;
+}
+
+main > section > h2 {
+    background-color: blueviolet;
+    padding: 5px;
+    margin: 5px -15px 5px -15px;
+    text-align: center;
+}
+
+div {
+    line-height: 2em;
+}
+
+div#res {
+    margin: 15px 0px 0px 0px;
+    padding: 0px;
+    line-height: normal;
+}
+
+#btn {
+    margin: 15px 0px 0px 0px;
+    width: 110px;
+    height: 30px;
+    font-size: 1em;
+    background-color: white;
+    border: 1px solid black;
+}
+
+#btn:hover {
+    background-color: blueviolet;
+}
+
+table {
+    border-collapse: collapse;
+    min-width: 600px;
+    margin: 0px auto;
+}
+
+caption {
+    background-color: rgba(255, 0, 0, 0.3);
+    font-size: 1.2em;
+}
+
+td, th {
+    border: 1px solid black;
+    text-align: center;
+}
+
+tr:nth-child(even) {
+    background-color: rgba(128, 128, 128, 0.5);
+}
+
+thead > tr {
+    background-color: rgba(128, 128, 128, 0.5);
+}
+
+p {
+    font-weight: bold;
+    text-align: center;
+    margin: 15px 0px 0px 0px;
+}
+
+footer {
+    color: white;
+    margin: 15px 0px 15px 0px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    text-decoration: underline;
+}
