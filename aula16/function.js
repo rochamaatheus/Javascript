@@ -20,7 +20,7 @@ function parimp(n=0) {
     }
 }
 
-function fatorial(n) {
+function fatorial(n=0) {
     let n1 = Number(n)
     let fat = 1
     for(let c = n1; c > 1; c--) {
@@ -30,7 +30,7 @@ function fatorial(n) {
 }
 
 //RECURSIVIDADE//
-function fatorialS(n) {
+function fatorialS(n=0) {
     var n1 = Number(n)
     let fat = 1
     if (n == 1) {
