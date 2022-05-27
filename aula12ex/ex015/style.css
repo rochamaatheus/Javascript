@@ -30,3 +30,8 @@ img {
     width: 250px;
     border-radius: 50%;
 }
+
+footer > p > a {
+    color: white;
+    text-decoration: none;
+}

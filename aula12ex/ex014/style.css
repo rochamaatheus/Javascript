@@ -38,3 +38,8 @@ div {
 div#msg {
     padding-bottom: 15px;
 }
+
+footer > p > a {
+    color: white;
+    text-decoration: none;
+}

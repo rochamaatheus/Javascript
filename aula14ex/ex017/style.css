@@ -24,3 +24,8 @@ footer {
     text-align: center;
     font-style: italic
 }
+
+footer > p > a {
+    color:  white;
+    text-decoration: none;
+}
