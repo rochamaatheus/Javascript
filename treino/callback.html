@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Callback</title>
+</head>
+<body>
+    <script>
+        function newButton(text, callback) {
+            const body = document.querySelector('body')
+            const button = document.createElement('button')
+            button.textContent = text
+
+            callback(button)
+
+            body.insertAdjacentElement('beforeend', button)
+            
+            return button
+        }
+
+        newButton('Login', (button) => {
+            button.style.cssText = `
+                font-size: 30px;
+            `
+
+            button.addEventListener('click', () => {
+                console.log('OI')
+            })
+        })
+        newButton('Signup', (button) => {
+            button.style.cssText = `
+                font-size: 60px;
+                color: red;
+            `
+
+            button.addEventListener('click', () => {
+                console.log('Tchau')
+            })
+        })
+    </script>
+</body>
+</html>
