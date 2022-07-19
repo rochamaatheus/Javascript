@@ -3,7 +3,7 @@ function exibir(n) {
 }
 
 function soma(a, b, callback) {
-    let op= a + b
+    let op = a + b
     callback(op)
 }
 
